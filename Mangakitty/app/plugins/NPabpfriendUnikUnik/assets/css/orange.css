@@ -1,0 +1,112 @@
+/*!
+* NP-AdBlock Friend v1.1.1 (http://nusantara-project.blogspot.com)
+* Copyright 2014 Nusantara Project.
+* Donate: 
+* 			Bitcoin 1JEmDi9iTw2CvN2TZgKgtTZKo2u6sHHWoq
+* 			Dogecoin D8H8BexvSRGs3zXefAYrG89s4Zcz6HTLiR
+* 			Stellar gDFTjXXVe3G8X6dhPTHmdo5yaGWYjuVgvy
+* 			Reddcoin RpUXYhJ8pkc5tmohVp366XnUjbyQ5SqnyJ
+* 			HTML5coin HQ24pH1CH9Ngbv9yKGqPqh4vnoct8Sa5vT   
+ */
+
+/*! orange.css v1.0.0 | nusantara-project.blogspot.com */
+
+@-webkit-keyframes npadsfriend-fadeInDown {
+		0% {
+		opacity:0;
+		-webkit-transform:translateY(-20px);
+		}
+		100% {
+		opacity:1;
+		-webkit-transform:translateY(0);
+		}
+		}
+		
+		@keyframes npadsfriend-fadeInDown {
+		0% {
+		opacity:0;
+		transform:translateY(-20px);
+		}
+		100% {
+		opacity:1;
+		transform:translateY(0);
+		}
+		}
+		
+		
+		#npadsfriend-notice {
+		-webkit-animation:npadsfriend-fadeInDown  .5s ease;
+		animation:npadsfriend-fadeInDown  .5s ease;
+		padding:0;
+		color:#000 !important;
+		background-color:#fff !important;
+		display:block !important;
+		width:100% !important;
+		position:fixed !important;
+		z-index:999999 !important;
+		left:0;
+		top:0;
+		text-align:left;
+		vertical-align:middle;
+		margin:0 !important;
+		font-size:14px !important;
+		font-family:arial !important;
+		border-bottom:5px solid #ff8503 !important;
+		line-height:1.2 !important;
+		font-variant:small-caps;
+		}
+		
+		#npadsfriend-notice-navbar {
+		background-color:#ff8503 !important;
+		padding:0 20px 0 45px !important;
+		background-image:url("https://.png");
+		background-repeat:no-repeat;
+		background-position:20px 3px;
+		background-size:32px;
+		}
+		
+		.npadsfriend-navbar-link {
+		padding:0 5px 0 5px !important;
+		line-height:35px !important;
+		color:#fff;
+		display:inline-block;
+		text-decoration:none;
+		transform:skew(0deg,0deg);
+		background-color:#ff8503;
+		border-bottom:1px solid #ff8503;
+		}
+		
+		.npadsfriend-navbar-link:hover {
+		color:#fff;
+		background-color:#2F3233;
+		border-bottom:1px solid #fff;
+		text-decoration:none;
+		}
+		
+		#npadsfriend-notice-close {
+		color:#fff;
+		float:right !important;
+		margin:0 5px;
+		padding:10px 10px 8px 10px;
+		text-decoration:none;
+		}
+		
+		#npadsfriend-notice .brand {
+		padding-right:20px !important;
+		color:#fff !important;
+		font-size:14px !important;
+		}
+		
+		#npadsfriend-notice-content {
+		padding:5px 20px;
+		min-height:72px;
+		}
+		
+		#npadsfriend-notice-content a {
+		color:#ff8503 !important;
+		text-decoration:none;
+		}
+		
+		#npadsfriend-notice-content a:hover {
+		text-decoration:underline;
+		}	

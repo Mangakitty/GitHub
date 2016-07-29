@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Plan · Documentation</title>
+  <meta name="description" content="Plan Bootstrap Skin Documentation">
+  <meta name="author" content="geedmo">
+
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="docs.css" rel="stylesheet">
+
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+
+<!-- Subhead
+  ================================================== -->
+  <header>
+    <div class="container">
+      <h1>Plan Skin <small> / Documentation</small></h1>
+    </div>
+  </header>
+
+
+  <div class="container">
+
+    <!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav">
+          <li><a href="#general"><i class="icon-chevron-right"></i> Overview</a></li>
+          <li><a href="#structure"><i class="icon-chevron-right"></i> Structure</a></li>
+          <li><a href="#files"><i class="icon-chevron-right"></i> Files</a></li>
+          <li><a href="#usage"><i class="icon-chevron-right"></i> Usage</a></li>
+          <li><a href="#uikit"><i class="icon-chevron-right"></i> UI Kit</a></li>
+          <li><a href="#credits"><i class="icon-chevron-right"></i> Credits</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-9 col-md-9 col-sm-9">
+
+        <!-- Overview
+        ================================================== -->
+        <section id="general">
+          <a href="http://codecanyon.net/user/geedmo#contact" class="btn btn-primary btn-lg pull-right">Support</a>
+          <div class="page-header">
+            <h1>1. Overview</h1>
+          </div>
+          <p>
+            Created: 31/05/2013
+            <br/>
+            Updated: 05/09/2014
+            <br/>
+            Version: 1.6
+            <br />
+            Author: <a href="http://geedmo.com">geedmo</a>
+          </p>
+          <br />
+          <p>
+            Thank you for purchasing this item. If you have any questions that are beyond the scope of this help file,
+            <br />
+            please feel free to email via my user page contact form <a href="http://codecanyon.net/user/geedmo#contact">here</a>.
+            <br />
+            <br />
+            Thanks so much!
+          </p>
+          <br />
+
+          <p class="lead">Introduction</p>
+          <p>Plan is a skin for Bootstrap 3, wich means that can be used with any site built with the Bootstrap framework. With easy installation and customization thanks to the LESS files that are included. LESS is a tool to quickly declare CSS rules and after compile the .less files, get the real .css file ready to include in your site. </p>
+          <p>Plan Skin has a flat style. There's no shadows or gradients applied to the components. It also include an extended set of UI Elements based on the same style and compatibles with the standard Bootstrap Elements. See section Files to know how to include and use this new UI Elements.</p>
+          <p>Each components usage is described in the file <a href="../plan.html">plan.html</a></p>
+
+
+        </section>
+
+
+
+        <!-- File structure
+        ================================================== -->
+        <section id="structure">
+          <div class="page-header">
+            <h1>2. Structure</h1>
+          </div>
+          <p class="lead">Within the download you'll find the following file structure and contents</p>
+          <p>Once downloaded, unzip the compressed zip file to see the structure. You'll see something like this:</p>
+          <pre class="prettyprint">
+  plan/
+  ├── assets/
+  │    ├── css/
+  │    ├── js/
+  │    ├── font/
+  │    └── img/
+  ├── less/
+  │    ├── fontawesome/
+  │    ├── library/    
+  │    └── *.less
+  └── *.html
+          </pre>
+
+        </section>
+
+        <section id="files">
+          <div class="page-header">
+            <h1>3. Files</h1>
+          </div>          
+          <h3>CSS</h3>
+          <p>Under the CSS folder you will find the following files</p>
+          <ul>
+            <li><b>Bootstrap</b>: the following are the main Bootstrap css for each theme, there is an unminified and a minified version for each file. All demo files uses de minified version (*.min.css).</li>
+            <ul>
+              <li>bootstrap.belizehole.css</li>
+              <li>bootstrap.belizehole.min.css</li>
+              <li>bootstrap.amethyst.css</li>
+              <li>bootstrap.amethyst.min.css</li>
+              <li>bootstrap.carrot.css</li>
+              <li>bootstrap.carrot.min.css</li>
+              <li>bootstrap.greensea.css</li>
+              <li>bootstrap.greensea.min.css</li>
+            </ul>
+            <p>Default theme used is <b>belizehole</b></p>
+
+            <li><b>Plan</b>: this files contains all rules required for the extended UI elements used in this skin. When using a theme, make sure to match the theme name so you can see the same colors.</li>
+            <ul>
+              <li>plan.belizehole.css</li>
+              <li>plan.belizehole.min.css</li>
+              <li>plan.amethyst.css</li>
+              <li>plan.amethyst.min.css</li>
+              <li>plan.carrot.css</li>
+              <li>plan.carrot.min.css</li>
+              <li>plan.greensea.css</li>
+              <li>plan.greensea.min.css</li>
+            </ul>
+            <p>Default theme used is <b>belizehole</b></p>
+            <li><b>Video JS</b>: the file <code>video-js.min.css</code> is necessary only if you want to use the HTML5 vide in your page</li>
+          </ul>
+
+          <h3>JS</h3>
+          <p>Under the js folder you will find the Javascript files required for features</p>
+          <ul>
+            <li><b>jquery.js</b>: A library required for Bootstrap Javascript</li>
+            <li><b>bootstrap.js</b>: This files contains the necessary Bootstrap Javascript for the standard components. The minified version of this files is recommended to use.</li>
+            <li><b>html5shiv.js</b>: This files is used to add support for HTML5 tags in old browsers</li>
+            <li><b>plan.ui.js</b>: This files contains the JavaScript required to make all the extended UI elements works correctly</li>
+            <li><b>video.js</b>: The Video.JS main file. Required if you want to use HTML5 video in your page</li>
+            <li><b>responsive.video.js</b>: This file is required to make your Video.JS videos responsive</li>
+            <li><b>jquery.placeholder.js</b>: This plugin allows to use text placeholders in browsers that are not supported. </li>
+            <li><b>jquery.gmap.min.js</b>: Google map v3 jQuery plugin</li>
+            <li><b>respond.min.js</b>: support for media queries in older browsers (ie8)</li>
+            <li><b>application.js</b>: This files is used for demo.</li>
+          </ul>
+
+          <h3>Font</h3>
+          <p>This folder includes all the font files required by FontAwesome.</p>
+          <h3>Img</h3>
+          <p>This contains the image used in demo.</p>
+          <h3>Less</h3>
+          <p>This folder contains the LESS files which are the CSS source for the skin. To customize this skin you can edit the CSS files included or edit the LESS files and then compiles them into CSS. See <a href="http://lesscss.org">here</a> to learn more about LESS.</p>
+          <p>Inside this folder there are two folders</p>
+          <ul>
+            <li>fontawesome: includes the FontAwesome LESS core files</li>
+            <li>library: include the Plan Skin LESS files for the extended UI elements.</li>
+          </ul>
+
+          <h3>HTML Files</h3>
+          <p>All html files are included for demonstration purposes only, but you can use them as a start point for your site.</p>
+          <ul>
+            <li>bootstrap.html: A demostration of the standard Bootstrap components using this skin</li>
+            <li>uikit.html: A demostration of the components you can create using the Card UI concept</li>
+            <li>plan.html: A demostration of the extended UI Elements included within this skin. <span class="label label-info">important</span> You can see the source of this files to learn how to use all the extended elements.</li>
+            <li>onepage.html: A bse OnePage site included for demostration purposes of the elements included within this skin.</li>
+          </ul>          
+        </section>
+
+        <!-- Usage
+        ================================================== -->
+        <section id="usage">
+          <div class="page-header">
+            <h1>4. Usage</h1>
+          </div>
+          
+          <p class="lead">CSS installation</p>
+          <p>Include the next html code in the <code>head</code> section of your page</p>          
+<pre>
+  &lt;!-- Bootstrap --&gt;
+  &lt;link href="assets/css/bootstrap.min.css" rel="stylesheet"&gt;
+  &lt;!-- Plan UI --&gt;
+  &lt;link href="assets/css/plan.min.css" rel="stylesheet"&gt;
+  &lt;!-- Video JS --&gt;
+  &lt;link href="assets/css/video-js.min.css" rel="stylesheet"&gt;
+  &lt;!-- Bootstrap Select --&gt;
+  &lt;link rel="stylesheet" href="assets/css/bootstrap-select.min.css"&gt;
+</pre>
+          <p>Make sure to fix the path to the stylesheet if your project uses some different.</p>
+          <p class="lead">Plugin installation</p>
+          <p>Add the next scripts at the bottom of your page. Just before the <code>&lt;/body&gt;</code></p>
+<pre>
+  &lt;!-- Main Scripts--&gt;
+  &lt;script src="assets/js/jquery.js"&gt;&lt;/script&gt;
+  &lt;script src="assets/js/bootstrap.min.js"&gt;&lt;/script&gt;
+  &lt;!-- Video JS --&gt;
+  &lt;script src="assets/js/video.js"&gt;&lt;/script&gt;
+  &lt;script src="assets/js/responsive.video.js"&gt;&lt;/script&gt;
+  &lt;!-- Bootstrap Select --&gt;
+  &lt;script src="assets/js/bootstrap-select.min.js"&gt;&lt;/script&gt;
+  &lt;!-- Plan UI elements --&gt;
+  &lt;script src="assets/js/plan.ui.js"&gt;&lt;/script&gt;
+</pre>
+          <p>Make sure to fix the path to the script if your project uses some different.</p>
+      
+      <p class="lead">Plan Inputs Javascript</p>
+      <p>To use the custom inputs included with this skin you need to init them via Javascript. Just use the following code:</p>
+<pre>
+  $(document).ready(function(){
+
+    PlanInput.init();
+
+  })
+</pre>
+      This function will init all components, but there are other functions that can use separately to init particular elements, for example if you are creating element loaded via ajax calls. <br>
+      Some functions are: 
+<pre>
+  PlanInput.initCheckbox();
+  PlanInput.initRadio();
+  PlanInput.initInputGroupCheckbox();
+  PlanInput.initInputGroupRadio();
+</pre>
+      <p class="lead">Skin installation</p>
+		  <p>This section cover the skin usage, assuming that you are using the same folder structure as in the downloaded package.<br>
+      To use the skin included with the package you have two alternatives</p>
+		  <ol>
+			<li>Copy the files <b>bootstrap.[theme].min.css</b>* and <b>plan.[theme].min.css</b>* to the assets/css folder and link them from your pages<br>
+        Your link tags should look like:<br>
+<pre>
+  &lt;!-- Example with belize skin --&gt;
+  &lt;link href="assets/css/bootstrap.belize.min.css" rel="stylesheet"&gt;
+  &lt;link href="assets/css/plan.belize.min.css" rel="stylesheet"&gt;
+</pre>
+      </li>
+			<li>Rename the files <b>bootstrap.[theme].min.css</b>* to <b>bootstrap.min.css</b> and <b>plan.[theme].min.js</b>* to plan.min.js. Then copy them and replace the original version located in folder the assets/css. You dont need to edit html files.</li>
+		  </ol>
+		  <p>*Where [theme] must be the skin name (belizehole, greensea, etc)</p>
+
+          <p class="lead">Font installation</p>
+          <p>If you want to include the font used in demo pages, add the following code between the  <code>&lt;head&gt;</code> of your pages</p>
+<pre class="prettyprint linenums">
+  &lt;link href='http://fonts.googleapis.com/css?family=Lato:300,700,300italic' rel='stylesheet' type='text/css'>
+</pre>
+      <br>
+
+      <p class="lead">Compiling Source</p>
+
+<p><strong>Node.js</strong> is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.</p>
+ 
+<p><strong>Gulp</strong> is a task manager, you can define different tasks to run certain commands. Those commands does the compilation job for JADE and LESS, and concats the JS files.</p>
+ 
+<p>The package includes under the root the file <strong>gulpfile.js</strong> and <strong>package.json</strong> to install the required componets to compile the source files.</p>
+ 
+<p class="alert alert-info">It's not necessary that you use gulp, you can choose to work with your favorite tool to compiles LESS, JADE and concat JS file (e.g. codekit, prepros)</p>
+ 
+<p>The following steps are intended to be an orientation guide, if you are not experienced with this you will need to learn more about it from Google :)</p>
+<ol>
+  <li><p>To install node, go to http://nodejs.org/ which comes with npm (node package manager)</p></li>
+  <li><p>After that, open a terminal and go to the skin root folder and run the command <strong>npm install</strong>. This command will install gulp and all depencies. </p></li>
+  <li><p>Then run <strong>gulp</strong> to start the task manager </p></li>
+</ol>
+
+<p>If everything goes fine, you should see the messages in the terminal telling you that most of the task are done ok. The task includes a watch to compile automatically all files when they change and also refresh the browser (requires LiveReload extension for chrome).</p>
+
+
+        </section>
+
+        <!-- UIKIT
+        ================================================== -->
+        <section id="uikit">
+          <div class="page-header">
+            <h1>5. UI Kit</h1>
+          </div>
+          
+          <p>Using the Bootstrap 3 version of this skin you get a set of UI components created just with the features that this skin includes.</p>
+          <p>There is no special files to include or customize. The UI is based on cards concept, a design trend that divides the content into individual components. The concept is to include just the necessary information into single pieces instead of showing many pages. This concept is ideal for mobile websites and, since Bootstrap 3 is now <a href="http://getbootstrap.com/css/#overview">mobile first</a>, everything fits to provide the best user experience. </p>
+
+          <p class="lead">Extra files used in the UI</p>
+          <p>This is not a contradiction. As said before, there is no extra files, but according to what you need to show, you may need some extra plugins like gMap for google maps or the file upload plugin for Bootstrap.</p>
+          <p>Used files are included in the skin js folder</p>
+
+          <p class="lead">Panels</p>
+          <p>Bootstrap 3 panel components has been customized to match perfectly the UI Kit elements. Learn from the Bootstrap 3 website more about <a href="http://getbootstrap.com/components/#panels">panels</a>. Anyway, the markup in file <b>uikit.html</b> is well organized with single comments so you can copy/paste directly into your site.</p>
+        </section>
+
+        <!-- Credits
+        ================================================== -->
+        <section id="credits">
+          <div class="page-header">
+            <h1>6. Credits</h1>
+          </div>
+          
+          <p class="lead">Plugins and others stuff included</p>
+          <ul>
+            <li><strong><a href="http://www.videojs.com/">Video.js</a></strong></li>
+            <li><strong><a href="https://github.com/mathiasbynens/jquery-placeholder">jQuery Placeholder</a></strong></li>
+            <li><strong><a href="http://fortawesome.github.io/Font-Awesome/">FontAwesome</a></strong></li>
+            <li><strong><a href="http://codepen.io/geedmo/pen/InFfd">Radial Progress Bar</a></strong></li>
+            <li><strong><a href="http://jasny.github.com/bootstrap/javascript.html#fileupload">File upload</a></strong></li>
+            <li><strong><a href="https://github.com/marioestrada/jQuery-gMap">Gmap</a></strong></li>
+            <li><strong><a href="http://silviomoreto.github.io/bootstrap-select/">Bootstrap Select</a></strong></li>
+            
+          </ul>
+        </section>
+      </div>
+    </div>
+
+  </div>
+
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+
+      <div id="gototop" class="container">
+        <a href="#"><i class="icon-chevron-up"></i></a>
+      </div>
+
+      <div class="container">
+        <p>Plan skin for <a href="http://twitter.github.com/bootstrap/">Bootstrap</a> Powered by CSS3.</p>
+        <p>2014 &copy; All rights reserved. </p>
+      </div>
+    </footer>
+
+
+    <!-- Le javascript -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+
+
+
+  </body>
+  </html>

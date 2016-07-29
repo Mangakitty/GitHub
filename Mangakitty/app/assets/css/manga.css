@@ -1,0 +1,35 @@
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  display: none;
+  max-width: 800px !important;
+  padding: 1px;
+  text-align: left;
+  white-space: normal;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;
+}
+
+.chapter-img { max-width: 100%; border: 2px solid; border-color: #000; }
+.chapter-content { text-align: center; width: 100%; top: 80px; }
+.manga-0 { background: url('../images/manga_open.png') left center no-repeat; padding: 4px 5px 4px 23px; }
+.manga-1 { background: url('../images/manga_close.png') left center no-repeat; padding: 4px 5px 4px 23px; }
+.manga-2 { background: url('../images/manga_open.png') left center no-repeat; padding: 4px 5px 4px 23px; }
+
+#listing_sidebar ul { list-style: none; padding: 0;}
+#listing_sidebar ul li { float: left; width: 50%; }
+#listing_sidebar ul#alphabetical_filter li { float: left; width: 10%; }
+#listing_sidebar ul#released_filter li { float: left; width: 20%; }
+div.manga_list2 { padding:0px; margin-bottom: 10px;} 
+.manga_list2 a.cover {width: 60px;height: 84px;float: left;overflow: hidden;border: 1px #e5e5e5 solid; margin-right: 10px;}

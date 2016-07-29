@@ -1,0 +1,16 @@
+{
+  "name": "Plan",
+  "version": "1.6.0",
+  "description": "Bootstrap 3 Skin",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.6.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-less": "^1.2.3",
+    "gulp-livereload": "~0.2.0",
+    "tiny-lr": "0.0.5",
+    "gulp-embedlr": "^0.5.2",
+    "through2": "^0.6.1"
+  },
+  "author": "@geedmo"
+}

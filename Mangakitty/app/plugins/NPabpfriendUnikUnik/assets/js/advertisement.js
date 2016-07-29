@@ -1,0 +1,1 @@
+document.write('<div id="detectabp">advertisement</div>'); // JavaScript Document

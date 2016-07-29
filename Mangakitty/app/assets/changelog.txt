@@ -1,0 +1,27 @@
+1.6 – Sep 05 2014
+- Update to Bootstrap 3.2.0
+- Update to Fontawesomne 4.1
+- Fix minor bugs
+- Added Node Gulp.js Script for easy compilation
+- Updated documentation
+1.5 – Mar 26 2014
+- Update to Bootstrap 3.1.1
+- Replaced custom select for BootstrapSelect plugin
+- Custom input javascript improved for ajax usage
+1.4 – Feb 8 2014
+- Bootstrap 3.1.0 Upgrade
+- Font Awesome 4.0.3
+- Removed bootstrap 2 support
+- Themes-files moved to css/ folder
+- Online demo preview enabled
+1.3 – Sep 10 2013
+- Bootstrap 3 Upgrade
+- Added UI Kit for Bootstrap 3 version
+1.2 – Jun 18 2013
+- Update Font Awesome 3.2
+- Fix safari inline-block input issue
+1.1 – Jun 7 2013
+- Fix Opera checkbox
+- Fix dropdown select ie8
+1.0 – May 30 2013
+- Initial release

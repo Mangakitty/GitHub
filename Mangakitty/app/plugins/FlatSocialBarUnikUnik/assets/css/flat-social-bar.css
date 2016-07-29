@@ -1,0 +1,96 @@
+body {
+
+}
+
+/*FLAT SOCIAL BAR CONTAINER*/
+.flat-social-bar {
+	width: 50px;
+	height: auto;
+	position: fixed;
+	top: 0px;
+	left: 15px;
+	font-size: 22px;
+	background: #fff;
+    z-index: 777;
+	float: top;
+	
+}
+
+.flat-social-bar-icons a {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	color: #767676;
+	font-size: 22px;
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.flat-social-bar-icons a span {
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	display: none;
+	position: absolute;
+	z-index: 5;
+	left: 50px;
+	padding: 0px 20px 0px;
+	color: #fff;
+	font-family: Roboto Slab;
+	font-size: 14px;
+}
+
+.flat-social-bar-icons a:hover span {
+	display: inline-block;
+	position: absolute;
+}
+
+/*YOUTUBE BTN HOVER COLOR*/
+.flat-social-bar-icons a.flat-youtube:hover,
+.flat-social-bar-icons a.flat-youtube:hover span {
+	color: #fff;
+	background: #bb0000;
+}
+
+/*DEVIANART BTN HOVER COLOR*/
+.flat-social-bar-icons a.flat-devianart:hover,
+.flat-social-bar-icons a.flat-devianart:hover span {
+	color: #fff;
+	background: #00A33D;
+}
+
+/*GOOGLE BTN HOVER COLOR*/
+.flat-social-bar-icons a.flat-google-plus:hover,
+.flat-social-bar-icons a.flat-google-plus:hover span {
+	color: #fff;
+	background: #dd4b39;
+}
+
+/*TWITTER BTN HOVER COLOR*/
+.flat-social-bar-icons a.flat-twitter:hover,
+.flat-social-bar-icons a.flat-twitter:hover span {
+	color: #fff;
+	background: #00aced;
+}
+
+/*FACEBOOK BTN HOVER COLOR*/
+.flat-social-bar-icons a.flat-facebook:hover,
+.flat-social-bar-icons a.flat-facebook:hover span {
+	color: #fff;
+	background: #3b5998;
+}
+
+
+/*SOCIAL BAR TRIGGER STYLE*/
+.flat-social-bar-trigger {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	color: #767676;
+	font-size: 22px;
+	text-align: center;
+	cursor: pointer;
+	background: #fff;
+}

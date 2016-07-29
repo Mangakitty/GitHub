@@ -1,0 +1,304 @@
+#acp-menu{
+  position: fixed;
+  width: 70px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #2f354a;
+  z-index: 2;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#acp-compose-button{
+  margin: 10px auto 0;
+}
+#show-menu-btn{display:none;position:fixed;top: 10px;right: 20px;z-index:99}
+#acp-menu-listing > li{
+  text-align: center;
+}
+#acp-menu-listing > li.active {
+  font-weight: bold;
+  }
+
+#acp-menu-listing > li > a{
+  font-size: 1.5em;
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 15px 0;
+  -webkit-box-shadow: inset 0 -5px 3px -5px rgba(0,0,0,0.25);
+  box-shadow: inset 0 -5px 3px -5px rgba(0,0,0,0.25);
+}
+
+#acp-menu-listing > li > a > .fa{
+  margin: auto;
+}
+
+#acp-menu h4{
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+#acp-menu-tags{
+  text-align: center;
+}
+
+#acp-menu-tags > li{
+  display: inline-block;
+  padding: 3px 0;
+}
+
+#acp-menu-tags > li > a{
+  display: block;
+}
+
+.color-tags{
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  background-color: #eee;
+  margin: auto;
+}
+
+.color-tags.green{
+  background-color: #16a062;
+}
+
+.color-tags.orange{
+  background-color: #DE883E;
+}
+
+.color-tags.sky{
+  background-color: #16a09c;
+}
+
+#acp-list{
+  padding-left: 75px;
+}
+
+#acp-list .list-group{
+  margin-bottom: 0;
+}
+
+#acp-list .acp-author{
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  max-width: 50px;
+  height: auto;
+}
+
+#acp-list .list-group-item-heading{
+  font-size: 20px;
+}
+
+#acp-list .list-group-item-text{
+  font-size: 0.9em;
+}
+
+#acp-content{
+  padding-left: 70px;
+}
+
+#acp-content .acp-padding{
+  padding: 10px;
+}
+
+.acp-title{
+  margin: 10px auto;
+}
+
+.main-contact{
+  text-decoration: none;
+}
+
+.acp-from{
+  margin: 0;
+}
+
+.acp-time,
+.acp-date{
+  color: #999;
+  font-size: 0.9em;
+}
+
+.acp-md-text{
+  display: none;
+}
+
+.acp-md-icons{
+  display: block;
+}
+
+/* MEDIA QUERIES */
+/* -------------------------- */
+
+@media screen and (min-width: 768px) {
+  #acp-menu{
+    width: 100px;
+  }
+  
+  #acp-list,
+  #acp-content{
+    padding-left: 105px;
+  }
+  
+  #acp-compose-button{
+    font-size: 2em;
+  }
+  
+  #acp-menu-listing li > a{
+    font-size: 2em;
+    padding: 20px 0;
+  }
+  
+  #acp-menu-tags > li{
+    display: block;
+    padding: 10px 0;
+  }
+
+  .color-tags{
+    width: 20px;
+    height: 20px;
+    margin: auto auto 5px;
+  }
+
+  .acp-tags{
+    color: #e9e9e9;
+    font-size: 0.9em;
+  }
+
+  #acp-menu h4{
+    color: #FFF;
+    font-size: 1.5em;
+    padding: 10px 0;
+    margin: 1em auto;
+    border-top: 2px solid #272c3e;
+    border-bottom: 2px solid #272c3e;
+  }
+
+  #acp-content .acp-padding {
+    padding: 10px 20px;
+  }
+
+  #acp-list .list-group-item-text{
+    font-size: 1em;
+  }
+
+}
+
+/* TABLET LANDSCAPE */
+/* -------------------------- */
+
+@media screen and (min-width: 1024px) {
+
+  .acp-md-text{
+    display: inline-block;
+  }
+
+  .acp-md-icons{
+    display: inline-block;
+    margin-right: 3px;
+  }
+
+  #acp-menu{
+    width: 150px;
+  }
+
+  #acp-list{
+    padding-left: 160px;
+    width: 40%;
+    float: left;
+  }
+
+  #acp-content{
+    padding-left: 0;
+    width: 60%;
+    float: left;
+  }
+
+  #acp-compose-button{
+    font-size: 1.1em;
+    margin: 1em auto 0;
+  }
+
+  #acp-menu-listing{
+    padding-left: 8px;
+  }
+
+  #acp-menu-listing > li{
+    text-align: left;
+  }
+
+  #acp-menu-listing li > a{
+    font-size: 1.1em;
+    padding: 15px 0;
+  }
+
+  #acp-menu h4{
+    text-align: left;
+    font-size: 1.3em;
+    padding: 10px 8px;
+    margin: 1em auto 0;
+    border: none;
+  }
+
+  #acp-menu-tags{
+    text-align: left;
+    padding-left: 8px;
+  }
+
+  #acp-menu-tags > li{
+    padding: 5px 0;
+  }
+
+  .color-tags{
+    width: 15px;
+    height: 15px;
+    margin: 10px auto 0;
+    position: relative;
+    top: 1px;
+  }
+
+  .acp-tags{
+    color: #e9e9e9;
+    font-size: 1.1em;
+    margin-left: 5px;
+  }
+}
+
+/* Desktop */
+/* -------------------------- */
+
+@media screen and (min-width: 1300px) {
+  #acp-list{
+    width: 30%;
+  }
+
+  #acp-content{
+    padding-left: 0;
+    width: 70%;
+    float: left;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

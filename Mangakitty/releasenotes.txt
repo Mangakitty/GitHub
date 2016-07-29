@@ -1,0 +1,22 @@
+
+
+   _____                               __   .__  __    __          
+  /     \ _____    ____    _________  |  | _|__|/  |__/  |_ ___.__.
+ /  \ /  \\__  \  /    \  / ___\__  \ |  |/ /  \   __\   __<   |  |
+/    Y    \/ __ \|   |  \/ /_/  > __ \|    <|  ||  |  |  |  \___  |
+\____|__  (____  /___|  /\___  (____  /__|_ \__||__|  |__|  / ____|
+        \/     \/     \//_____/     \/     \/               \/     
+
+
+Version 1.1 by Mangakitty
+-Manual file upload
+-Fixed proper linking of fonts on pages
+-Added logo
+-Working comments system now
+
+
+Initial Release by huykhong
+-Responsive layout
+-Dashboard
+-Manga info
+-User system
